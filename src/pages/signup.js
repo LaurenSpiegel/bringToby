@@ -12,6 +12,7 @@ import Button from '../components/button';
 import Header from '../components/header';
 
 import Login from './login';
+import Account from './account';
 
 import * as firebase from '../firebase/firebase';
 import styles from '../styles/common-styles.js';
