@@ -79,7 +79,7 @@ export default class account extends Component {
       // TEST THIS
       firebase.auth().signOut();
       this.props.navigator.push({
-        component: Login
+        component: 'Login'
       });
     });
 

@@ -83,7 +83,7 @@ export default class login extends Component {
           if (value) AsyncStorage.setItem('user_data', value)
           else console.log('AsyncStorage not set, stringify failed:', key, value)
           this.props.navigator.push({
-            component: Account
+            component: 'Account'
           });
 
         }, error => {
@@ -96,7 +96,7 @@ export default class login extends Component {
 
   goToSignup(){
     this.props.navigator.push({
-      component: Signup
+      component: 'Signup'
     });
   }
 

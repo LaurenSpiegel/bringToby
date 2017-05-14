@@ -10,6 +10,7 @@ import React, { Component } from 'react';
 
 import Signup from './src/pages/signup';
 import Account from './src/pages/account';
+import Login from './src/pages/login';
 
 import Header from './src/components/header';
 
@@ -60,6 +61,9 @@ class toby extends Component {
                   break;
                 case "Signup":
                   return (<Signup navigator={navigator} />);
+                  break;
+                case "Login":
+                  return (<Login navigator={navigator} />);
                   break;
               }
             }
